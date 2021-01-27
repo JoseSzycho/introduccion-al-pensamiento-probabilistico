@@ -204,6 +204,8 @@ La calidad de nuestros datos es igual de fundamental que la precisión de nuestr
 
 En pocas palabras: con datos errados las conclusiones serán erradas.
 
+
+
 ## Imágenes engañosas
 
 Las visualizaciones son muy importantes para entender un conjunto de datos. Sin embargo, cuando se juega con la escala se puede llegar a conclusiones incorrectas.
@@ -215,6 +217,8 @@ Nunca se debe confiar en una gráfica sin escalas o etiquetas.
 Dos variables están positivamente correlacionadas cuando se mueven en la misma dirección y negativamente correlacionadas cuando se mueven en direcciones opuestas. Esta correlación no implica causalidad.
 
 Puede existir variables escondidas que generen la correlación. _Después de esto, eso; entonces a consecuencia de esto, eso._
+
+**Por ejemplo**, se puede decir que la TV pone violentos a los niños, pero capaz realmente puede ser que los niños violentos miren tele..
 
 ## Prejuicio en el muestreo
 
