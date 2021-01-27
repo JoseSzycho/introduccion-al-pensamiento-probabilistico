@@ -52,13 +52,15 @@ La **probabilidad condicional** es la probabilidad de que ocurra un evento _A_, 
 
 No tiene por qué haber una relación causal o temporal entre _A_ y _B_. _A_ puede preceder en el tiempo a _B_, sucederlo o pueden ocurrir simultáneamente. _A_ puede causar _B_, viceversa o pueden no tener relación causal. Las relaciones causales o temporales son nociones que no pertenecen al ámbito de la probabilidad. Pueden desempeñar un papel o no, dependiendo de la interpretación que se le dé a los eventos.
 
-La notación para escribir,
+La notación para escribir, (**el sub indice _c indica que no sucede**)
 
 _«la probabilidad de A y B suceden»_: <img src="readme_img/paandb.svg" height="15">
 
 _«la probabilidad de B»_: <img src="readme_img/pb.svg" height="15">
 
 Un ejemplo de esto puede ser la probabilidad que una persona **tenga cáncer**, luego de realizar pruebas.
+
+_«la probabilidad de que alguien tenga cancer, es la probabilida de P(test positivo)*P(tener cancer dado que salio test positivo)+P(de un test negativo)*P(de tener cancer dado que el test salio negativo)»_
 
 <img src="readme_img/pcancer.svg" height="15">
 
