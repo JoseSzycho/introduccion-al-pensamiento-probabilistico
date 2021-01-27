@@ -117,6 +117,8 @@ Hipótesis = El Taxi es Azul
 
 Evidencia = El testigo dijo que el taxi era azul
 
+**Esta representacion se llama ecosograma**
+
 <div align="center">
     <img src="readme_img/ejemplo_bayer.PNG" height="50%">
 </div>
