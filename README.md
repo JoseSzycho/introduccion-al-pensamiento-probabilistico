@@ -234,6 +234,12 @@ Esta falacia se da cuando no se toma la aleatoriedad en consideración. También
 
 Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alto riesgo de car en esta falacia (muy común en Data Science).
 
+**Por ejemplo**, tiramos primero unos tiros, los cuales son los datos y luego grafico el blanco sobre los huecos, es decir diseño una hipotesis en base a resultados que ya vi, por lo que podría sacar la conclusión de que mi precisión es del 100%...
+
+<div align="center"> 
+  <img src="readme_img/falacia_franco_tirador.png" width="50%">
+</div>
+
 ## Porcentajes confusos
 
 Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados, siempre es importante ver el contexto, y los porcentajes, en vacio, no significan mucho.
