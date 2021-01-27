@@ -118,7 +118,7 @@ Hipótesis = El Taxi es Azul
 Evidencia = El testigo dijo que el taxi era azul
 
 <div align="center">
-    <img src="ejemplo_bayer.PNG" height="60">
+    <img src="readme_img/ejemplo_bayer.PNG" height="60">
 </div>
 
 
