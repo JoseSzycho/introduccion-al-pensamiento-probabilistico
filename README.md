@@ -68,6 +68,8 @@ Otro ejemplo es cual es la probabilidad de que una persona **use drogas**, pero 
 
 <img src="readme_img/pdrogas.svg" height="15">
 
+Es decir, se **toman todos los casos**, para el ejemplo anterior, la probabilidad de que la persona consuma drogas es la probabilidad que consuma drogas **x** la probabilidad que consuma drogas dado que es músico **+** la probabilidad de que no sea musico **x** la probabilidad consuma drogas dado que no es musico.
+
 ## Teorema de Bayes
 
 El **teorema de Bayes**, en la teoría de la probabilidad, es una proposición planteada por el matemático inglés Thomas Bayes (1702-1761)​ y publicada póstumamente en 1763,​ que expresa la probabilidad condicional de un evento aleatorio _A_ dado _B_ en términos de la distribución de probabilidad condicional del evento _B_ dado _A_ y la distribución de probabilidad marginal de solo _A_.
@@ -95,6 +97,30 @@ Como sabemos que <img src="readme_img/pb.svg" height="15"> podemos reemplazarlo 
     <img src="readme_img/bayes-expandido.svg" height="60">
 </div>
 <br>
+
+**Un ejemplo de aplicación del teorema de Bayes**
+
+"Un taxi estuvo involucrado en un atropello y se escapó en la noche. En la ciudad operan dos compañías, los taxis Verdes y los taxis Azules. Conocemos la siguiente información:
+
+- a) El 85% de los taxis son Verdes y el 15% son Azules
+- b) Un Testigo identificó el taxi Azul como el causante del atropello. 
+
+La corte realizó pruebas de confiabilidad del testigo bajo las mismas circunstancias que existían la noche del accidente y concluyeron que el testigo identificaba correctamente uno de los dos colores el 80% de las veces y fallaba en el 20% de las veces.
+
+¿Cuál es la probabilidad qué el taxi involucrado en el accidente fuera Azul en lugar de Verde?”
+
+Sabiendo que se ha demostrado que el testigo tiene razón el 80% del tiempo, identificando cuando el Taxi es Verde y cuando el taxi es Azul, muchos de los miembros del jurado les parecería que el taxi tiene una probabilidad de 80% de ser del color que el testigo dijo (Azul). La distribución de los taxis en la ciudad parece haberse considerado irrelevante.
+
+La probabilidad que se debe conocer es: P(Taxi sea Azul | Testigo dijo que era Azul)
+
+Hipótesis = El Taxi es Azul
+
+Evidencia = El testigo dijo que el taxi era azul
+
+<div align="center">
+    <img src="ejemplo_bayer.PNG" height="60">
+</div>
+
 
 En este [enlace](https://www.youtube.com/watch?v=HZGCoVF3YvM&t) _(en inglés)_ podras encontrar un video práctico sobre el **Teorema de Bayes.**
 
