@@ -90,13 +90,9 @@ donde:
 - <img src="readme_img/pba.svg" height="15"> es la probabilidad de <img src="readme_img/B.svg" height="12"> en la hipótesis <img src="readme_img/Ai.svg" height="15">,
 - <img src="readme_img/pab.svg" height="15"> son las probabilidades a posteriori.
 
-Como sabemos que <img src="readme_img/pb.svg" height="15"> podemos reemplazarlo en la ecuación y nos quedaría:
+Como sabemos que <img src="readme_img/pb.svg" height="15"> 
 
-<br>
-<div align="center">
-    <img src="readme_img/bayes-expandido.svg" height="60">
-</div>
-<br>
+
 
 **Un ejemplo de aplicación del teorema de Bayes**
 
