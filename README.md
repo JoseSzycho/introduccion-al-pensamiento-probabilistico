@@ -244,6 +244,11 @@ Cuando fallamos al tener una hipótesis antes de recolectar datos estamos en alt
 
 Cuando no sabemos la cuenta total del cual se obtiene un porcentaje tenemos el riesgo de concluir falsos resultados, siempre es importante ver el contexto, y los porcentajes, en vacio, no significan mucho.
 
+**Por ejemplo**
+<div align="center"> 
+  <img src="readme_img/porcentajes_confusos.png" width="50%">
+</div>
+
 ## Falacia de regresión
 
 Muchos eventos fluctúan naturalmente, por ejemplo, la temperatura promedio de una ciudad, el rendimiento de un atleta, los rendimientos de un portafolio de inversión, etc.
@@ -275,6 +280,19 @@ Uno de los _feature vectors_ más conocidos es la representación del color a tr
 - Reconocimiento de voz: Distancia de sonidos, nivel de ruido, razón ruido / señal, etc.
 - Spam: Dirección IP, estructura del texto, frecuencia de palabras, encabezados, etc.
 
+**Otro ejemplo** para poder describir un arbol:
+- Vector:
+    - Altura total del árbol (desde tierra).
+    - Diametro del tronco.
+    - Altura de la copa.
+    - Diametro de la copa.
+    - Diametro de la rama.
+    - Diametro de la ramita.
+
+<div align="center"> 
+  <img src="readme_img/vector_arbol.png" width="50%">
+</div>
+
 ## Métricas de distancia
 
 Muchos de los algoritmos de machine learning pueden clasificarse como algoritmos de optimización. Lo que desean optimizar es una función que en muchas ocasiones se refiere a la distancia entre features.
@@ -292,6 +310,10 @@ Distancia de Manhattan:
 
 <img src="readme_img/manhattan.svg" height="25">
 
+**Por ejemplo** en el caso de una ciudad, que queramos medir la distancia entre dos puntos, la distancia **Euclidiana** daría la distancia directa entre los dos puntos, lo que ser vería reflejada como que se atravesaron edificios, casas, negocios, etc. Mientras que se utiliza la distancia de **Manhattan** se obtendrían distancias que respetan las cuadras, es decir se doblaría en cada esquina para llegar al punto final, lo que daría una distancia total mas larga, pero acertada porque uno recorrería el camino de esta forma.
+
+<img src="readme_img/tipos_distancias.png" height="%80">
+
 # Agrupamiento
 
 ## Introducción al agrupamiento
@@ -301,6 +323,12 @@ Es un proceso mediante el cual se agrupan objetos similares en clusters que los 
 Permite entender la estructura de los datos y la similitud entre los mismos.
 
 Es utilizado en motores de recomendación, análisis de redes sociales, análisis de riesgo crediticio, clasificación de genes, riesgos médicos, etc.
+
+<img src="readme_img/ejemplo_clustering.png" height="%80">
+
+**Buscar algoritmos de agrupamiento o clustering**, son muy interesantes y varían un montón depende de como se neceiste agrupar.
+https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68
+
 
 ## Agrupamiento jerárquico
 
@@ -354,6 +382,8 @@ Se utiliza en muchos dominios, incluyendo la medicina, aprobación crediticia, r
 
 Sigue dos pasos: aprendizaje (creación del modelo) y clasificación.
 
+<img src="readme_img/clasificacion_vs_cluster.png" height="%90">
+
 ## Clasificación K nearest neighbors
 
 Parte del supuesto de que ya tenemos un conjunto de datos clasificado. Trata de encontrar los "vecinos más cercanos".
@@ -363,6 +393,9 @@ K se refiere a la cantidad de vecinos que se utilizarán para clasificar un ejem
 Es sencillo de implementar y tiene aplicaciones en medicina, finanzas, agricultura, etc.
 
 Es computacionalmente muy costoso y no sirve con datos de alta dimensionalidad.
+
+<img src="readme_img/KNN-Classification.gif" height="%90">
+
 
 ## Otras tecnicas de clasificación
 
